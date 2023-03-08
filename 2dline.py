@@ -9,6 +9,7 @@ def drawLine():
     # here we can use the for loop to draw the line on the basis of points
     for i in range(20):
         glVertex2f(0.1 + i/50.0, 0.1)
+        # here to draw using simple points        
     # glBegin(GL_LINES)
     # glVertex2f(-0.5, 0.0)
     # glVertex2f(0.5, 0.0)
